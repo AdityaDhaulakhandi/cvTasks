@@ -1,0 +1,11 @@
+image_size : [340,512]
+num_classes : 4 
+CLASSES : ['background','plate','window','transparent']
+
+backbone : 
+  name : resnet50 # resnet50 or mobilenet
+  load_trained_wts : False
+
+GT_type : MultipleMask #pass singleMask for indexed GT mask and MultipleMask for multiple binary GT masks
+
+result_dir : results/ # create a softlink to the data server

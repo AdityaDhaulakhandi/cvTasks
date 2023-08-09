@@ -1,0 +1,11 @@
+Pillow==8.4.0
+torch 
+torchvision 
+matplotlib==3.7.1
+torchmetrics
+tensorboard
+opencv-python
+lmdb
+argparse
+easydict
+PyYAML
